@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MakePost should render correctly in "debug" mode 1`] = `
+<Row
+  bsClass="row"
+  className="mb-10 pr-30"
+  componentClass="div"
+>
+  <Col
+    bsClass="col"
+    className="wall-post"
+    componentClass="div"
+    md={12}
+    xs={12}
+  >
+    <div
+      className="card"
+    >
+      <Col
+        bsClass="col"
+        componentClass="div"
+        md={12}
+        xs={12}
+      >
+        Make a post
+        <FormControl
+          bsClass="form-control"
+          className="mb-10"
+          componentClass="textarea"
+          id="newPostContent"
+          placeholder="What you want to share, null?"
+        />
+        <Button
+          active={false}
+          block={false}
+          bsClass="btn"
+          bsStyle="success"
+          className="fw-6 float-right"
+          disabled={false}
+          onClick={[Function]}
+        >
+          Post to wall
+        </Button>
+      </Col>
+    </div>
+  </Col>
+</Row>
+`;

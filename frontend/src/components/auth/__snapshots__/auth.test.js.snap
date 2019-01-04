@@ -1,0 +1,188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Auth should render correctly in "debug" mode 1`] = `
+<div
+  className="container"
+>
+  <Row
+    bsClass="row"
+    componentClass="div"
+  >
+    <Col
+      bsClass="col"
+      componentClass="div"
+      md={4}
+      mdOffset={4}
+    >
+      <form
+        className="loginForm"
+        onSubmit={[Function]}
+      >
+        <h2
+          className="text-center"
+        >
+          Please, log in
+        </h2>
+        <div
+          className="form-group"
+        >
+          <FormControl
+            bsClass="form-control"
+            componentClass="input"
+            id="username"
+            onChange={[Function]}
+            placeholder="Username"
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <FormControl
+            bsClass="form-control"
+            componentClass="input"
+            id="password"
+            onChange={[Function]}
+            placeholder="Password"
+            type="password"
+          />
+        </div>
+        <div
+          className="form-group text-center"
+        >
+          <Button
+            active={false}
+            block={false}
+            bsClass="btn"
+            bsStyle="success"
+            disabled={false}
+            type="submit"
+          >
+            Log in
+          </Button>
+        </div>
+      </form>
+    </Col>
+    <Col
+      bsClass="col"
+      componentClass="div"
+      md={6}
+      mdOffset={3}
+    >
+      <hr
+        className="bg-primary mt-0 mb-0"
+      />
+      <h5
+        className="text-center mb-0"
+      >
+        or
+      </h5>
+    </Col>
+    <Col
+      bsClass="col"
+      componentClass="div"
+      md={4}
+      mdOffset={4}
+    >
+      <form
+        className="authForm"
+        onSubmit={[Function]}
+      >
+        <h2
+          className="text-center"
+        >
+          Register
+        </h2>
+        <div
+          className="form-group"
+        >
+          <FormControl
+            bsClass="form-control"
+            componentClass="input"
+            id="first_name"
+            onChange={[Function]}
+            placeholder="First Name"
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <FormControl
+            bsClass="form-control"
+            componentClass="input"
+            id="last_name"
+            onChange={[Function]}
+            placeholder="Last Name"
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <FormControl
+            bsClass="form-control"
+            componentClass="input"
+            id="email"
+            onChange={[Function]}
+            placeholder="Email"
+            type="email"
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <FormControl
+            bsClass="form-control"
+            componentClass="input"
+            id="username"
+            onChange={[Function]}
+            placeholder="Username"
+          />
+        </div>
+        <Col
+          bsClass="col"
+          className="form-group pl-0"
+          componentClass="div"
+          md={6}
+        >
+          <FormControl
+            bsClass="form-control"
+            componentClass="input"
+            id="password"
+            onChange={[Function]}
+            placeholder="Password"
+            type="password"
+          />
+        </Col>
+        <Col
+          bsClass="col"
+          className="form-group pr-0"
+          componentClass="div"
+          md={6}
+        >
+          <FormControl
+            bsClass="form-control"
+            componentClass="input"
+            id="confirm_password"
+            onChange={[Function]}
+            placeholder="Confirm password"
+            type="password"
+          />
+        </Col>
+        <div
+          className="form-group text-center"
+        >
+          <Button
+            active={false}
+            block={false}
+            bsClass="btn"
+            bsStyle="success"
+            disabled={false}
+            type="submit"
+          >
+            Register
+          </Button>
+        </div>
+      </form>
+    </Col>
+  </Row>
+</div>
+`;

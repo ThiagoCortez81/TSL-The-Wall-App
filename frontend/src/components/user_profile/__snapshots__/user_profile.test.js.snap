@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserProfile should render correctly in "debug" mode 1`] = `
+<div
+  className="card wall-post"
+>
+  <Col
+    bsClass="col"
+    className="p-0 bg-white"
+    componentClass="div"
+    md={12}
+  >
+    <Col
+      bsClass="col"
+      className="p-0 bg-white text-center"
+      componentClass="div"
+      md={12}
+    >
+      <h4
+        className="fw-6"
+      >
+        Please, log in
+      </h4>
+      <p>
+        <NavLink
+          activeClassName="active"
+          aria-current="page"
+          to="/auth"
+        >
+          Log in
+        </NavLink>
+      </p>
+    </Col>
+  </Col>
+</div>
+`;

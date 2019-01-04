@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Auth should render correctly in "debug" mode 1`] = `
+<Uncontrolled(Navbar)
+  bsStyle="default"
+  className="bg-primary"
+>
+  <NavbarHeader>
+    <NavbarBrand>
+      <NavLink
+        activeClassName="active"
+        aria-current="page"
+        to="/"
+      >
+        The Wall
+      </NavLink>
+    </NavbarBrand>
+  </NavbarHeader>
+  <Nav
+    bsClass="nav"
+    className="float-right"
+    justified={false}
+    pullLeft={false}
+    pullRight={false}
+    stacked={false}
+  >
+    <li>
+      <NavLink
+        activeClassName="active"
+        aria-current="page"
+        className=""
+        to="/"
+      >
+        Home
+      </NavLink>
+    </li>
+    <li>
+      <NavLink
+        activeClassName="active"
+        aria-current="page"
+        to="/profile"
+      >
+        My profile
+      </NavLink>
+    </li>
+  </Nav>
+</Uncontrolled(Navbar)>
+`;

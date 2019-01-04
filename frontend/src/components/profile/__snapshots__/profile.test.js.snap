@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile should render correctly in "debug" mode 1`] = `
+<div
+  className="container"
+>
+  <Row
+    bsClass="row"
+    componentClass="div"
+  >
+    <Col
+      bsClass="col"
+      className="form-group text-center"
+      componentClass="div"
+      md={6}
+      mdOffset={3}
+    >
+      <p
+        className="profile-img-text"
+      >
+        <span
+          id="initial_img"
+        />
+      </p>
+    </Col>
+    <Col
+      bsClass="col"
+      className="form-group"
+      componentClass="div"
+      md={6}
+      mdOffset={3}
+    >
+      <FormControl
+        bsClass="form-control"
+        componentClass="input"
+        id="first_name"
+        onChange={[Function]}
+        placeholder="First Name"
+      />
+    </Col>
+    <Col
+      bsClass="col"
+      className="form-group"
+      componentClass="div"
+      md={6}
+      mdOffset={3}
+    >
+      <FormControl
+        bsClass="form-control"
+        componentClass="input"
+        id="last_name"
+        onChange={[Function]}
+        placeholder="Last Name"
+      />
+    </Col>
+    <Col
+      bsClass="col"
+      className="form-group"
+      componentClass="div"
+      md={6}
+      mdOffset={3}
+    >
+      <FormControl
+        bsClass="form-control"
+        componentClass="input"
+        id="email"
+        onChange={[Function]}
+        placeholder="Email"
+        type="email"
+      />
+    </Col>
+    <Col
+      bsClass="col"
+      className="form-group"
+      componentClass="div"
+      md={6}
+      mdOffset={3}
+    >
+      <FormControl
+        bsClass="form-control"
+        componentClass="input"
+        id="username"
+        onChange={[Function]}
+        placeholder="Username"
+      />
+    </Col>
+    <Col
+      bsClass="col"
+      className="form-group"
+      componentClass="div"
+      md={3}
+      mdOffset={3}
+    >
+      <FormControl
+        bsClass="form-control"
+        componentClass="input"
+        id="password"
+        onChange={[Function]}
+        placeholder="Password"
+        type="password"
+      />
+    </Col>
+    <Col
+      bsClass="col"
+      className="form-group"
+      componentClass="div"
+      md={3}
+    >
+      <FormControl
+        bsClass="form-control"
+        componentClass="input"
+        id="confirm_password"
+        onChange={[Function]}
+        placeholder="Confirm password"
+        type="password"
+      />
+    </Col>
+    <Col
+      bsClass="col"
+      className="form-group text-center"
+      componentClass="div"
+      md={6}
+      mdOffset={3}
+    >
+      <Button
+        active={false}
+        block={false}
+        bsClass="btn"
+        bsStyle="success"
+        className="float-right"
+        disabled={false}
+        onClick={[Function]}
+        type="submit"
+      >
+        Save Changes
+      </Button>
+    </Col>
+  </Row>
+</div>
+`;

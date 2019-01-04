@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home should render correctly in "debug" mode 1`] = `
+<div
+  className="container"
+>
+  <Row
+    bsClass="row"
+    componentClass="div"
+  >
+    <Col
+      bsClass="col"
+      componentClass="div"
+      md={3}
+    >
+      <UserProfile />
+    </Col>
+    <Col
+      bsClass="col"
+      componentClass="div"
+      md={9}
+    >
+      <Post />
+    </Col>
+  </Row>
+</div>
+`;
